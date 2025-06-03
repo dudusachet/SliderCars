@@ -10,6 +10,7 @@ body {
     background-color: #000;
     color: #eee;
     font-size: 12px;
+      overflow: hidden;
 }
 
 header {
@@ -155,6 +156,7 @@ header a {
     font-weight: 700;
     font-size: 1.5em;
 }
+
 .container .arrows button:hover {
     background-color: #eee;
     color: #000;

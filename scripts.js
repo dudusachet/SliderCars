@@ -14,7 +14,7 @@ btnBack.onclick = () => moveItemsOnClick('back')
 
 function moveItemsOnClick(type) {
     let listItems = document.querySelectorAll('.list .list-item')
-    let thumbItems = document.querySelectorAll('.list .thumb-item')
+    let thumbItems = document.querySelectorAll('.thumb .thumb-item')
     console.log(listItems)
     console.log(thumbItems)
     if (type === 'next') {
@@ -22,8 +22,7 @@ function moveItemsOnClick(type) {
         thumb.appendChild(thumbItems[0])
 
     } else {
-        list.prepend(listItems[3])
-        thumb.appendChild(thumbItems[3])
+        list.prepend(listItems[listItems.length - 1])
+        thumb.prepend(thumbItems[listItems.length - 1])
     }
-
 }
