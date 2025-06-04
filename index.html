@@ -15,8 +15,8 @@
     <header>
         <nav>
             <a href="">Home</a>
-            <a href="">Informações</a>
-            <a href="">Fale Conosco</a>
+            <a href="https://www.linkedin.com/in/eduardo-sachet-b20061262/" target="_blank">Linkedin</a>
+            <a href="">Portfólio</a>
         </nav>
     </header>
     <main class="container">
@@ -35,12 +35,13 @@
                         Construída com materiais avançados como fibra de carbono, kevlar e alumínio, pesava cerca de
                         1.100 kg, resultando em uma relação peso-potência excepcional.</p>
                     <div class="buttons">
-                        <button onclick="window.open('https://pt.wikipedia.org/wiki/Ferrari_F40');">
-                            Saiba Mais
-                        </button>
-                        <button>
+                        <button onclick="window.open('https://pt.wikipedia.org/wiki/Ferrari_F40');">Saiba Mais</button>
+                        <button id="f40snd">
                             Ouvir
                         </button>
+                        <audio id="f40mp3">
+                            <source src="midia/f40.mp3" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
             </div>
@@ -63,9 +64,12 @@
                         <button onclick="window.open('https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R', '_blank');">
                             Saiba Mais
                         </button>
-                        <button>
+                        <button id="r34snd">
                             Ouvir
                         </button>
+                        <audio id="r34mp3">
+                            <source src="midia/r34.mp3" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
             </div>
@@ -90,9 +94,12 @@
                         <button onclick="window.open('https://en.wikipedia.org/wiki/Toyota_Supra', '_blank');">
                             Saiba Mais
                         </button>
-                        <button>
+                        <button id="suprasnd">
                             Ouvir
                         </button>
+                        <audio id="supramp3">
+                            <source src="midia/supra.mp3" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
             </div>
@@ -118,9 +125,12 @@
                         <button onclick="window.open('https://pt.wikipedia.org/wiki/Mazda_RX-7', '_blank');">
                             Saiba Mais
                         </button>
-                        <button>
+                        <button id="rx7snd">
                             Ouvir
                         </button>
+                        <audio id="rx7mp3">
+                            <source src="midia/rx7.mp3" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
             </div>
@@ -165,10 +175,14 @@
         </div>
         <div class="arrows">
             <button class="back">
-                < </button>
-                    <button class="next"> > </button>
+                &lt;</button>
+                    <button class="next"> &gt; </button>
         </div>
-    </main>
+</main>
+<footer>
+  <p>&copy; 2025 Eduardo Sachet. Todos os direitos reservados.</p>
+</footer>
 </body>
 <script src="./scripts.js"></script>
+
 </html>
