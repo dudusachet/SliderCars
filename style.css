@@ -213,15 +213,15 @@ header a {
 }
 
 .container .list .list-item:nth-last-child(1) .content .title {
-    animation-delay: 1.2s;
+    animation-delay: 0.6s;
 }
 
 .container .list .list-item:nth-last-child(1) .content .description {
-    animation-delay: 1.6s;
+    animation-delay: 0.8s;
 }
 
 .container .list .list-item:nth-last-child(1) .content .buttons {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 footer {
